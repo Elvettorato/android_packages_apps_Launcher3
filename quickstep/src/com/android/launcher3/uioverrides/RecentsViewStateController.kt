@@ -286,9 +286,7 @@ class RecentsViewStateController(private val launcher: QuickstepLauncher) :
         state: LauncherState,
     ) {
         val launcherUiState = launcher.launcherUiState
-        val clearAllButtonAlpha =
-            if (state.areElementsVisible(launcherUiState, LauncherState.CLEAR_ALL_BUTTON)) 1f
-            else 0f
+        val clearAllButtonAlpha = 0f // Always hide the original ClearAllButton
         propertySetter.setFloat(
             recentsView.clearAllButton,
             ClearAllButton.VISIBILITY_ALPHA,

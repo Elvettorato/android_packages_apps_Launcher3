@@ -147,6 +147,7 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
     /** Container for the action buttons below a focused, non-split Overview tile. */
     protected LinearLayout mActionButtons;
     private Button mSplitButton;
+    private Button mClearAllButton;
     /**
      * The "save app pair" button. Currently this is the only button that is not contained in
      * mActionButtons, since it is the sole button that appears for a grouped task.
@@ -170,6 +171,9 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
     private final Rect mTaskSize = new Rect();
     private boolean mIsGroupedTask = false;
     private boolean mCanSaveAppPair = false;
+
+    @Nullable
+    private OnClickListener mClearAllClickListener;
 
     public OverviewActionsView(Context context) {
         this(context, null);
@@ -215,6 +219,8 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         screenshotButton.setOnClickListener(this);
         mSplitButton = findViewById(R.id.action_split);
         mSplitButton.setOnClickListener(this);
+        mClearAllButton = findViewById(R.id.action_clear_all);
+        mClearAllButton.setOnClickListener(this);
         mSaveAppPairButton.setOnClickListener(this);
     }
 
@@ -225,6 +231,15 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
      */
     public void setCallbacks(T callbacks) {
         mCallbacks = callbacks;
+    }
+
+    /**
+     * Set listener for the "Clear All" button tap.
+     *
+     * @param listener for the clear all action, or {@code null} to clear the listener.
+     */
+    public void setClearAllClickListener(@Nullable OnClickListener listener) {
+        mClearAllClickListener = listener;
     }
 
     @Override
@@ -239,6 +254,10 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
             mCallbacks.onSplit();
         } else if (id == R.id.action_save_app_pair) {
             mCallbacks.onSaveAppPair();
+        } else if (id == R.id.action_clear_all) {
+            if (mClearAllClickListener != null) {
+                mClearAllClickListener.onClick(view);
+            }
         }
     }
 
