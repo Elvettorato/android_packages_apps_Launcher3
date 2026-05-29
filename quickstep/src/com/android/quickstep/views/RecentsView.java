@@ -946,7 +946,6 @@ public abstract class RecentsView<
         mClearAllButton = (ClearAllButton) LayoutInflater.from(context)
                 .inflate(R.layout.overview_clear_all_button, this, false);
         mClearAllButton.setOnClickListener(this::dismissAllTasks);
-        mClearAllButton.setVisibility(GONE);
 
         if (DesktopModeStatus.isMultipleDesktopFrontendEnabledOnDisplay(mContext,
                 mContainer.getDisplay())) {
@@ -3182,7 +3181,6 @@ public abstract class RecentsView<
             runningTaskViewId = taskView.getTaskViewId();
             if (wasEmpty) {
         addView(mClearAllButton);
-        mClearAllButton.setVisibility(GONE);
             }
 
             // Measure and layout immediately so that the scroll values is updated instantly
