@@ -4788,6 +4788,8 @@ public abstract class RecentsView<
             mActionsView.updateHiddenFlags(HIDDEN_NO_RECENTS, visibility != VISIBLE);
             if (visibility != VISIBLE) {
                 mActionsView.updateDisabledFlags(OverviewActionsView.DISABLED_SCROLLING, false);
+            } else {
+                mActionsView.updateRamUsage();
             }
         }
     }

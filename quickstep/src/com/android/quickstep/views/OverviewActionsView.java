@@ -30,12 +30,14 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.Insettable;
+import com.android.launcher3.LauncherPrefs;
 import com.android.launcher3.R;
 import com.android.launcher3.anim.AnimatedFloat;
 import com.android.launcher3.util.DisplayController;
@@ -175,6 +177,9 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
     @Nullable
     private OnClickListener mClearAllClickListener;
 
+    private TextView mRamUsageText;
+    private final ActivityManager mActivityManager;
+
     public OverviewActionsView(Context context) {
         this(context, null);
     }
@@ -185,6 +190,7 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
 
     public OverviewActionsView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr, 0);
+        mActivityManager = context.getSystemService(ActivityManager.class);
     }
 
     @Override
@@ -222,6 +228,8 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         mClearAllButton = findViewById(R.id.action_clear_all);
         mClearAllButton.setOnClickListener(this);
         mSaveAppPairButton.setOnClickListener(this);
+        mRamUsageText = findViewById(R.id.ram_usage_text);
+        updateRamUsage();
     }
 
     /**
@@ -240,6 +248,35 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
      */
     public void setClearAllClickListener(@Nullable OnClickListener listener) {
         mClearAllClickListener = listener;
+    }
+
+    /**
+     * Updates the RAM usage display with current memory information.
+     */
+    public void updateRamUsage() {
+        if (mActivityManager == null || mRamUsageText == null) {
+            return;
+        }
+
+        boolean showRamUsage = LauncherPrefs.SHOW_RAM_USAGE.get(getContext());
+
+        if (!showRamUsage) {
+            mRamUsageText.setVisibility(GONE);
+            return;
+        }
+
+        mRamUsageText.setVisibility(VISIBLE);
+
+        ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
+        mActivityManager.getMemoryInfo(memInfo);
+
+        long totalMemMB = memInfo.totalMem / (1024 * 1024);
+        long availMemMB = memInfo.availMem / (1024 * 1024);
+        long usedMemMB = totalMemMB - availMemMB;
+        int usedPercent = (int) ((usedMemMB * 100) / totalMemMB);
+
+        String ramText = usedMemMB + " MB / " + totalMemMB + " MB (" + usedPercent + "%)";
+        mRamUsageText.setText(ramText);
     }
 
     @Override

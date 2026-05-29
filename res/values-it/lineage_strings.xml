@@ -44,4 +44,8 @@
     <string name="tapered_rect_shape_title">Quadrato senza angoli</string>
     <string name="teardrop_shape_title">Goccia</string>
     <string name="rounded_rect_shape_title">Quadrato arrotondato</string>
+
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Mostra uso RAM nei recenti</string>
+    <string name="pref_ram_usage_summary">Mostra informazioni sull\'utilizzo della memoria nella vista multitasking</string>
 </resources>
