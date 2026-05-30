@@ -260,8 +260,9 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         }
 
         boolean showRamUsage = LauncherPrefs.SHOW_RAM_USAGE.get(getContext());
+        boolean isHiddenByOtherFlags = (mHiddenFlags & ~HIDDEN_NO_TASKS) != 0;
 
-        if (!showRamUsage || mHiddenFlags != 0) {
+        if (!showRamUsage || isHiddenByOtherFlags) {
             mRamUsageText.setVisibility(GONE);
             mRamUsageText.setAlpha(0f);
             return;
@@ -324,7 +325,8 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         mAlphaProperties[INDEX_HIDDEN_FLAGS_ALPHA].updateValue(isHidden ? 0 : 1);
         if (mRamUsageText != null) {
             mRamUsageText.animate().cancel();
-            if (isHidden) {
+            boolean isHiddenByOtherFlags = (mHiddenFlags & ~HIDDEN_NO_TASKS) != 0;
+            if (isHiddenByOtherFlags) {
                 mRamUsageText.animate().alpha(0f).setDuration(200).withEndAction(() -> {
                     mRamUsageText.setVisibility(GONE);
                 }).start();
