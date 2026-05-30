@@ -1245,6 +1245,7 @@ public abstract class RecentsView<
         mActionsView.setClearAllClickListener(this::dismissAllTasks);
         mSplitSelectStateController = splitController;
         mDesktopRecentsTransitionController = desktopRecentsTransitionController;
+        mDisallowScrollToClearAll = true;
     }
 
     public SplitSelectStateController getSplitSelectController() {
@@ -1377,6 +1378,7 @@ public abstract class RecentsView<
         // child direction back to match system settings.
         child.setLayoutDirection(mIsRtl ? View.LAYOUT_DIRECTION_LTR : View.LAYOUT_DIRECTION_RTL);
         mActionsView.updateHiddenFlags(HIDDEN_NO_TASKS, false);
+        mActionsView.updateRamUsage();
         updateEmptyMessage();
         traceEnd(Trace.TRACE_TAG_APP);
     }

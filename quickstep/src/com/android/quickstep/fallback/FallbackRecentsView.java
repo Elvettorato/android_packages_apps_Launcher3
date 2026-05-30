@@ -305,8 +305,7 @@ public class FallbackRecentsView<CONTAINER_TYPE extends Context & RecentsViewCon
     public void setOverviewStateEnabled(boolean enabled) {
         super.setOverviewStateEnabled(enabled);
         if (enabled) {
-            RecentsState state = mContainer.getStateManager().getState();
-            setDisallowScrollToClearAll(!state.hasClearAllButton());
+            setDisallowScrollToClearAll(true);
         }
     }
 

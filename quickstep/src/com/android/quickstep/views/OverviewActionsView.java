@@ -268,7 +268,7 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         }
 
         mRamUsageText.setVisibility(VISIBLE);
-        mRamUsageText.setAlpha(1f);
+        mRamUsageText.animate().alpha(1f).setDuration(200).start();
 
         ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
         mActivityManager.getMemoryInfo(memInfo);
@@ -323,8 +323,14 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         boolean isHidden = mHiddenFlags != 0;
         mAlphaProperties[INDEX_HIDDEN_FLAGS_ALPHA].updateValue(isHidden ? 0 : 1);
         if (mRamUsageText != null) {
-            mRamUsageText.setVisibility(isHidden ? GONE : VISIBLE);
-            mRamUsageText.setAlpha(isHidden ? 0f : 1f);
+            mRamUsageText.animate().cancel();
+            if (isHidden) {
+                mRamUsageText.animate().alpha(0f).setDuration(200).withEndAction(() -> {
+                    mRamUsageText.setVisibility(GONE);
+                }).start();
+            } else {
+                updateRamUsage();
+            }
         }
     }
 
