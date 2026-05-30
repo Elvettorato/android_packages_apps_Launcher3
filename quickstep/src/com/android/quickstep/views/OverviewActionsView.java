@@ -497,11 +497,14 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
             return modalTaskbarHeight + mDp.getOverviewProfile().getActionsTopMarginPx();
         }
 
-        // Align to bottom of task Rect.
+        // Align to bottom of task Rect with extra spacing.
+        int extraMargin = getResources().getDimensionPixelSize(
+                R.dimen.overview_actions_extra_bottom_margin);
         return mDp.getDeviceProperties().getHeightPx()
                 - mTaskSize.bottom
                 - mDp.getOverviewProfile().getActionsTopMarginPx()
-                - mDp.getOverviewProfile().getActionsHeight();
+                - mDp.getOverviewProfile().getActionsHeight()
+                - extraMargin;
     }
 
     /**
