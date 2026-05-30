@@ -229,7 +229,8 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         mClearAllButton.setOnClickListener(this);
         mSaveAppPairButton.setOnClickListener(this);
         mRamUsageText = findViewById(R.id.ram_usage_text);
-        updateRamUsage();
+        mRamUsageText.setVisibility(GONE);
+        mRamUsageText.setAlpha(0f);
     }
 
     /**
@@ -260,12 +261,14 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
 
         boolean showRamUsage = LauncherPrefs.SHOW_RAM_USAGE.get(getContext());
 
-        if (!showRamUsage) {
+        if (!showRamUsage || mHiddenFlags != 0) {
             mRamUsageText.setVisibility(GONE);
+            mRamUsageText.setAlpha(0f);
             return;
         }
 
         mRamUsageText.setVisibility(VISIBLE);
+        mRamUsageText.setAlpha(1f);
 
         ActivityManager.MemoryInfo memInfo = new ActivityManager.MemoryInfo();
         mActivityManager.getMemoryInfo(memInfo);
@@ -319,6 +322,10 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         }
         boolean isHidden = mHiddenFlags != 0;
         mAlphaProperties[INDEX_HIDDEN_FLAGS_ALPHA].updateValue(isHidden ? 0 : 1);
+        if (mRamUsageText != null) {
+            mRamUsageText.setVisibility(isHidden ? GONE : VISIBLE);
+            mRamUsageText.setAlpha(isHidden ? 0f : 1f);
+        }
     }
 
     /**
