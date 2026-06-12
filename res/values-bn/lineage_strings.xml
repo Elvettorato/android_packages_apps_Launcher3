@@ -17,4 +17,7 @@
     <string name="settings_lock_layout_title">লেআউট লক করো</string>
     <string name="title_show_google_app">গুগল অ্যাপ প্রদর্শিত হবে</string>
     <string name="msg_minus_one_on_left">যখন আপনি মূল হোম স্ক্রিন থেকে ডানে সোয়াইপ করেন</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">সাম্প্রতিকগুলিতে RAM ব্যবহার দেখান</string>
+    <string name="pref_ram_usage_summary">মাল্টিটাস্কিং ভিউতে মেমরি ব্যবহারের তথ্য প্রদর্শন করুন</string>
 </resources>

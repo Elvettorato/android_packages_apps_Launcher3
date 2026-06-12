@@ -23,4 +23,7 @@
     <string name="trust_apps_auth_manager">Розблокуйте, щоб керувати схованими й захищеними застосунками</string>
     <string name="trust_apps_info_hidden">Схованих застосунків і віджетів не видно в меню</string>
     <string name="trust_apps_info_protected">Захищені застосунки запитують пароль при запуску</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Показувати використання RAM в останніх</string>
+    <string name="pref_ram_usage_summary">Відображати інформацію про використання пам\'яті в режимі багатозадачності</string>
 </resources>

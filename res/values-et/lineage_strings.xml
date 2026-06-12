@@ -30,4 +30,7 @@
     <string name="trust_apps_help">Abi</string>
     <string name="trust_apps_info_hidden">Peidetud rakendused ja nende vidinad on sahtlist peidetud</string>
     <string name="trust_apps_info_protected">Kaitstud rakendused vajavad käivitajast avamiseks autentimist</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Kuva hiljutiste RAM-i kasutus</string>
+    <string name="pref_ram_usage_summary">Kuva mälukasutuse teave multitegumtöö vaates</string>
 </resources>

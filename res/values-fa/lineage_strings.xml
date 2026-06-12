@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">برای باز کردن برنامه‌های محافظت شده از صفحه اصلی نیاز به احراز هویت می‌باشد</string>
     <string name="pref_suggestions_title">پیشنهادات</string>
     <string name="pref_suggestions_summary">برای کشوی برنامه &amp; پیشنهادهای صفحه اصلی</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">نمایش استفاده از RAM در موارد اخیر</string>
+    <string name="pref_ram_usage_summary">نمایش اطلاعات استفاده از حافظه در نمای چندوظیفه‌ای</string>
 </resources>

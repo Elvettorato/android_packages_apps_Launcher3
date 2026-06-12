@@ -39,4 +39,7 @@
     <string name="trust_apps_info_protected">保護アプリはランチャーから開くのに認証が必要です</string>
     <string name="pref_suggestions_title">おすすめ</string>
     <string name="pref_suggestions_summary">アプリドロワーとホーム画面のサジェスト</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">最近のアプリでRAM使用量を表示</string>
+    <string name="pref_ram_usage_summary">マルチタスク表示でメモリ使用情報を表示します</string>
 </resources>

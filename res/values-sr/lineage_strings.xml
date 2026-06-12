@@ -20,4 +20,7 @@
     <string name="title_show_google_app">Прикажи Google апликацију</string>
     <string name="desktop_show_labels">Прикажи ознаке иконица на радној површини</string>
     <string name="drawer_show_labels">Прикажи ознаке иконица у фиоци</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Прикажи искоришћење RAM-а у скорашњим</string>
+    <string name="pref_ram_usage_summary">Прикажи информације о коришћењу меморије у приказу вишезадаћности</string>
 </resources>

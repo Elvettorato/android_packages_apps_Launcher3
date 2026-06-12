@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">சரிந்த செவ்வகம்</string>
     <string name="teardrop_shape_title">நீர்த்துளி</string>
     <string name="rounded_rect_shape_title">வட்டமுனைச் செவ்வகம்</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">சமீபத்தியவற்றில் RAM பயன்பாட்டைக் காட்டு</string>
+    <string name="pref_ram_usage_summary">பல்பணிக் காட்சியில் நினைவகப் பயன்பாட்டுத் தகவலைக் காண்பி</string>
 </resources>

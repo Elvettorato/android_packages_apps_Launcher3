@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">لاکێشەی باریکبووەوە[cite: 13]</string>
     <string name="teardrop_shape_title">دڵۆپە[cite: 13]</string>
     <string name="rounded_rect_shape_title">لاکێشەی لێوارخڕ[cite: 13]</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">نیشاندانی بەکارهێنانی RAM لە دواییاندا</string>
+    <string name="pref_ram_usage_summary">نیشاندانی زانیاری بەکارهێنانی بیرگە لە دیمەنی فرە-ئەرکدا</string>
 </resources>

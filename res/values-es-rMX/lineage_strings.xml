@@ -24,4 +24,7 @@
     <string name="trust_apps_help">Ayuda</string>
     <string name="trust_apps_info_hidden">Las aplicaciones ocultas y sus widgets se ocultan del cajón</string>
     <string name="trust_apps_info_protected">Las aplicaciones protegidas requieren autenticación para abrir desde el launcher</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Mostrar uso de RAM en recientes</string>
+    <string name="pref_ram_usage_summary">Mostrar información de uso de memoria en la vista multitarea</string>
 </resources>

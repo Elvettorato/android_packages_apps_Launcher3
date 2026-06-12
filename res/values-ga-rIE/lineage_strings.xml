@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Dronuilleogach barrchaolaithe</string>
     <string name="teardrop_shape_title">Deora</string>
     <string name="rounded_rect_shape_title">Dronuilleog chothrom</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Taispeáin úsáid RAM i ndéanaí</string>
+    <string name="pref_ram_usage_summary">Taispeáin faisnéis úsáide cuimhne san amharc iltascála</string>
 </resources>

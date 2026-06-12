@@ -30,4 +30,7 @@
     <string name="trust_apps_help">Laguntza</string>
     <string name="trust_apps_info_hidden">Ezkutatutako aplikazioak eta bere trepetak ez dira tiraderan ikusten</string>
     <string name="trust_apps_info_protected">Babestutako aplikazioek autentifikazioa eskatzen dute abiarazletik irekitzeko</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Erakutsi RAM erabilera berrietan</string>
+    <string name="pref_ram_usage_summary">Erakutsi memoriaren erabileraren informazioa zeregin anitzeko bistan</string>
 </resources>

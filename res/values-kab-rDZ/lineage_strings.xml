@@ -16,4 +16,7 @@
 <resources>
     <string name="trust_apps_loading">Asali\u2026</string>
     <string name="trust_apps_help">Tallelt</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Sken agaz n RAM deg wizuz</string>
+    <string name="pref_ram_usage_summary">Sken talɣut n useqdec n tkatut deg uskan n wiyiḍ</string>
 </resources>

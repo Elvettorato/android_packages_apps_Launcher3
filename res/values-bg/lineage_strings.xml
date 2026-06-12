@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">Защитените приложения изискват парола, за да бъдат отворени от главното меню</string>
     <string name="pref_suggestions_title">Предложения</string>
     <string name="pref_suggestions_summary">За всички приложения и предложения на началния екран</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Показване на използваната RAM в последните</string>
+    <string name="pref_ram_usage_summary">Показване на информация за използването на паметта в изгледа за многозадачност</string>
 </resources>

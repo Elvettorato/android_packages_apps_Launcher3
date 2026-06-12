@@ -35,4 +35,7 @@
     <string name="trust_apps_info_protected">تتطلب التطبيقات المحمية فتح المصادقة من المشغِّل</string>
     <string name="pref_suggestions_title">الاقتراحات</string>
     <string name="pref_suggestions_summary">لدرج التطبيقات &amp; اقتراحات الشاشة الرئيسية</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">عرض استخدام RAM في التطبيقات الحديثة</string>
+    <string name="pref_ram_usage_summary">عرض معلومات استخدام الذاكرة في طريقة عرض تعدد المهام</string>
 </resources>

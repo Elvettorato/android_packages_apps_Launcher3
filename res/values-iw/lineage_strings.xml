@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">מלבן מוצר</string>
     <string name="teardrop_shape_title">טיפה</string>
     <string name="rounded_rect_shape_title">מלבן מעוגל</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">הצג שימוש ב-RAM באחרונים</string>
+    <string name="pref_ram_usage_summary">הצג מידע על שימוש בזיכרון בתצוגת ריבוי המשימות</string>
 </resources>

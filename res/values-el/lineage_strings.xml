@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">Οι προστατευόμενες εφαρμογές απαιτούν έλεγχο ταυτότητας για να ανοιχτούν από την αρχική σελίδα η το συρτάρι</string>
     <string name="pref_suggestions_title">Προτάσεις</string>
     <string name="pref_suggestions_summary">Εμφάνιση προτεινόμενων εφαρμογών στο συρτάρι &amp; την αρχική οθόνη</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Εμφάνιση χρήσης RAM στα πρόσφατα</string>
+    <string name="pref_ram_usage_summary">Εμφάνιση πληροφοριών χρήσης μνήμης στην προβολή πολλαπλών εργασιών</string>
 </resources>

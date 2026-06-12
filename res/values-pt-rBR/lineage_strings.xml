@@ -41,4 +41,7 @@
     <string name="pref_suggestions_summary">Para sugestões na gaveta de apps e na tela inicial</string>
     <string name="pebble_shape_title">Pedrinha</string>
     <string name="pure_square_shape_title">Quadrado completo</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Mostrar uso de RAM nos recentes</string>
+    <string name="pref_ram_usage_summary">Exibir informações de uso de memória na visualização multitarefa</string>
 </resources>

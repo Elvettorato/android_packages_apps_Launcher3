@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">Les applications protégées nécessitent une authentification pour être ouvertes depuis le lanceur</string>
     <string name="pref_suggestions_title">Suggestions</string>
     <string name="pref_suggestions_summary">Pour les suggestions du tiroir d\'applications et de l\'écran d\'accueil</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Afficher l\'utilisation de la RAM dans les récentes</string>
+    <string name="pref_ram_usage_summary">Afficher les informations d\'utilisation de la mémoire dans la vue multitâche</string>
 </resources>

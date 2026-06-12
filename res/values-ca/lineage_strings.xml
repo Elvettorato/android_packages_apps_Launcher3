@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Rectangle afilat</string>
     <string name="teardrop_shape_title">Llàgrima</string>
     <string name="rounded_rect_shape_title">Rectangle arrodonit</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Mostra l\'ús de RAM als recents</string>
+    <string name="pref_ram_usage_summary">Mostra informació sobre l\'ús de memòria a la vista multitasca</string>
 </resources>

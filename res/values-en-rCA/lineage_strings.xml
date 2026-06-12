@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Tapered rect</string>
     <string name="teardrop_shape_title">Teardrop</string>
     <string name="rounded_rect_shape_title">Rounded rect</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Show RAM usage in recents</string>
+    <string name="pref_ram_usage_summary">Display memory usage information in the multitasking view</string>
 </resources>

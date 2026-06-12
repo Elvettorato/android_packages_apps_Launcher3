@@ -30,4 +30,7 @@
     <string name="trust_apps_help">ಸಹಾಯ</string>
     <string name="trust_apps_info_hidden">ಅಡಗಿದ ಆಪ್ಗಳು ಮತ್ತು ಅವುಗಳ ಕಿಂಡಿಚೂಟಿಗಳು ಎಳೆಗೂಡಿಂದ ಮರೆಯಾಗಿವೆ</string>
     <string name="trust_apps_info_protected">ಸಂರಕ್ಷಿತ ಆಪ್ಗಳು ಏರುನೆಲೆಯಿಂದ ತೆರೆಯಲು ದೃಢೀಕರಣ ಅಗತ್ಯ</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">ಇತ್ತೀಚಿನವುಗಳಲ್ಲಿ RAM ಬಳಕೆಯನ್ನು ತೋರಿಸು</string>
+    <string name="pref_ram_usage_summary">ಮಲ್ಟಿಟಾಸ್ಕಿಂಗ್ ವೀಕ್ಷಣೆಯಲ್ಲಿ ಮೆಮೊರಿ ಬಳಕೆಯ ಮಾಹಿತಿಯನ್ನು ಪ್ರದರ್ಶಿಸು</string>
 </resources>

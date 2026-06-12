@@ -16,4 +16,7 @@
 <resources>
     <string name="trust_apps_loading">Učitavanje\u2026</string>
     <string name="trust_apps_help">Pomoć</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Prikaži korištenje RAM-a u nedavnim</string>
+    <string name="pref_ram_usage_summary">Prikaži informacije o korištenju memorije u multivju prikazu</string>
 </resources>

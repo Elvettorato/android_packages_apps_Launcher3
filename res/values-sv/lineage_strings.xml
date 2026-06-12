@@ -24,4 +24,7 @@
     <string name="trust_apps_help">Hjälp</string>
     <string name="pref_suggestions_title">Förslag</string>
     <string name="pref_suggestions_summary">För förslag på app- &amp; hemskärmen</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Visa RAM-användning i senaste</string>
+    <string name="pref_ram_usage_summary">Visa information om minnesanvändning i multitasking-vyn</string>
 </resources>

@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">Is aplicatziones amparadas ant a rechèdere autenticatzione in antis de èssere abertas dae s\'aviadore</string>
     <string name="pref_suggestions_title">Cussìgios</string>
     <string name="pref_suggestions_summary">Pro otènnere is cussìgios de su calàsciu de aplicatziones e de s\'ischermu printzipale</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Mustra s\'impreu de RAM in recents</string>
+    <string name="pref_ram_usage_summary">Mustra informatziones de impreu de memòria in sa bista multitasking</string>
 </resources>

@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Trapez</string>
     <string name="teardrop_shape_title">Tropfen</string>
     <string name="rounded_rect_shape_title">Abgerundetes Rechteck</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">RAM-Nutzung in den zuletzt verwendeten Apps anzeigen</string>
+    <string name="pref_ram_usage_summary">Informationen zur Speichernutzung in der Multitasking-Ansicht anzeigen</string>
 </resources>

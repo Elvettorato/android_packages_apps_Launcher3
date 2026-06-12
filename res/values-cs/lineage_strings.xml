@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">Chráněné aplikace vyžadují pro spuštění ze spouštěče ověření</string>
     <string name="pref_suggestions_title">Doporučení</string>
     <string name="pref_suggestions_summary">Pro seznam aplikací a doporučení na domovské obrazovce</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Zobrazit využití RAM v nedávných</string>
+    <string name="pref_ram_usage_summary">Zobrazit informace o využití paměti v zobrazení multitaskingu</string>
 </resources>

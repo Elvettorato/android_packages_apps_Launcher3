@@ -30,4 +30,7 @@
     <string name="trust_apps_help">วิธีใช้</string>
     <string name="trust_apps_info_hidden">แอปที่ถูกซ่อนและ widget ของแอพนั้นถูกซ่อนจากตัวเลือกแอป</string>
     <string name="trust_apps_info_protected">แอปที่ได้รับการป้องกัน จะต้องได้รับการยืนยันเพื่อที่จะเปิดจากตัว launcher</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">แสดงการใช้งาน RAM ในรายการล่าสุด</string>
+    <string name="pref_ram_usage_summary">แสดงข้อมูลการใช้หน่วยความจำในมุมมองมัลติทาสก์</string>
 </resources>

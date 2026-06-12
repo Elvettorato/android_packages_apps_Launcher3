@@ -30,4 +30,7 @@
     <string name="trust_apps_help">Pomocník</string>
     <string name="trust_apps_info_hidden">Skryté aplikácie a ich widgety se nezobrazujú v zozname aplikácií</string>
     <string name="trust_apps_info_protected">Chránené aplikácie vyžadujú pre otvorenie zo spúšťača overenie</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Zobraziť využitie RAM v nedávnych</string>
+    <string name="pref_ram_usage_summary">Zobraziť informácie o využití pamäte v zobrazení multitaskingu</string>
 </resources>

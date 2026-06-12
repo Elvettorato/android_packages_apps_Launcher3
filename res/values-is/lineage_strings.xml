@@ -35,4 +35,7 @@
     <string name="trust_apps_info_protected">Vernduð forrit krefjast auðkenningar ef opna á þau úr ræsinum</string>
     <string name="pref_suggestions_title">Tillögur</string>
     <string name="pref_suggestions_summary">Fyrir tillögur á forritasleða og heimaskjá</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Sýna RAM notkun í nýlegum</string>
+    <string name="pref_ram_usage_summary">Sýna upplýsingar um minnisnotkun í margverkunar-sýn</string>
 </resources>

@@ -31,4 +31,7 @@
     <string name="trust_apps_help">Cobhair</string>
     <string name="trust_apps_info_hidden">Tha aplacaidean falaichte ’s na widgets aca ’gam falach on drathair</string>
     <string name="trust_apps_info_protected">Iarraidh aplacaidean dìonta dearbhadh mus dèid am fosgladh on lòinsear</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Seall cleachdadh RAM ann an rudan a chleachd thu o chionn ghoirid</string>
+    <string name="pref_ram_usage_summary">Seall fiosrachadh mu chleachdadh cuimhne anns an t-sealladh ioma-ghnìomhach</string>
 </resources>

@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">보호된 앱을 실행기에서 열려면 인증이 필요합니다.</string>
     <string name="pref_suggestions_title">제안</string>
     <string name="pref_suggestions_summary">앱 서랍 및 홈 화면 제안</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">최근 앱에서 RAM 사용량 표시</string>
+    <string name="pref_ram_usage_summary">멀티태스킹 보기에서 메모리 사용 정보 표시</string>
 </resources>

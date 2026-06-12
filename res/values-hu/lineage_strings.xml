@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Trapéz-szerű</string>
     <string name="teardrop_shape_title">Könnycsepp</string>
     <string name="rounded_rect_shape_title">Kerekített téglalap</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">RAM-használat megjelenítése a legutóbbiakban</string>
+    <string name="pref_ram_usage_summary">Memóriahasználati információk megjelenítése a multitasking nézetben</string>
 </resources>

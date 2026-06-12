@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Rectángulo cónico</string>
     <string name="teardrop_shape_title">Gota</string>
     <string name="rounded_rect_shape_title">Rectángulo redondeado</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Mostrar uso de RAM en recientes</string>
+    <string name="pref_ram_usage_summary">Mostrar información de uso de memoria en la vista multitarea</string>
 </resources>

@@ -19,4 +19,7 @@
     <string name="settings_edit_widgets_error">Nije moguće dodavati widgete na početni zaslon</string>
     <string name="desktop_show_labels">Prikaži oznake ikona na radnoj površini</string>
     <string name="drawer_show_labels">Prikaži oznake ikona u ladici</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Prikaži korištenje RAM-a u nedavnima</string>
+    <string name="pref_ram_usage_summary">Prikaži informacije o korištenju memorije u prikazu višezadaćnosti</string>
 </resources>

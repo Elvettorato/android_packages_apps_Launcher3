@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">受保護的應用程式需要從啟動器開啟身份驗證</string>
     <string name="pref_suggestions_title">建議</string>
     <string name="pref_suggestions_summary">適用於應用程式導覽匣和主畫面的建議</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">在最近應用程式中顯示 RAM 使用量</string>
+    <string name="pref_ram_usage_summary">在多工處理檢視中顯示記憶體使用資訊</string>
 </resources>

@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">Verna appar krev stadfesting for å opnast frå startaren</string>
     <string name="pref_suggestions_title">Framlegg</string>
     <string name="pref_suggestions_summary">For framlegg i app-skuffa og på startskjermen</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Vis RAM-bruk i nylege</string>
+    <string name="pref_ram_usage_summary">Vis minnebruksinformasjon i multitasking-visinga</string>
 </resources>

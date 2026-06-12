@@ -37,4 +37,7 @@
     <string name="trust_apps_info_protected">Lis aplicazions protetis a domandin la autenticazion par jessi viertis dal inviadôr</string>
     <string name="pref_suggestions_title">Sugjeriments</string>
     <string name="pref_suggestions_summary">Par visualizâ sugjeriments tal scansel e te schermade di inizi</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Mostre l\'ûs di RAM tai recents</string>
+    <string name="pref_ram_usage_summary">Mostre lis informazions sul ûs de memorie te viste multitasking</string>
 </resources>

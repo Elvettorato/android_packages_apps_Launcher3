@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Drejtkëndësh i ngushtuar</string>
     <string name="teardrop_shape_title">Pikë loti</string>
     <string name="rounded_rect_shape_title">Drejtkëndësh i rrumbullakosur</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Shfaq përdorimin e RAM-it në të fundit</string>
+    <string name="pref_ram_usage_summary">Shfaq informacionin e përdorimit të memories në pamjen e shumë detyrave</string>
 </resources>

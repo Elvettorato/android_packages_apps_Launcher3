@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Dreptunghi conic</string>
     <string name="teardrop_shape_title">Lacrimă</string>
     <string name="rounded_rect_shape_title">Dreptunghi rotund</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Arată utilizarea RAM în recente</string>
+    <string name="pref_ram_usage_summary">Afișați informațiile despre utilizarea memoriei în vizualizarea multitasking</string>
 </resources>

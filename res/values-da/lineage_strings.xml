@@ -30,4 +30,7 @@
     <string name="trust_apps_info_protected">Beskyttede apps kræver godkendelse, for at blive åbnet fra starteren</string>
     <string name="pref_suggestions_title">Forslag</string>
     <string name="pref_suggestions_summary">For til app-skuffe &amp; startskærms forslag</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Vis RAM-brug i seneste</string>
+    <string name="pref_ram_usage_summary">Vis oplysninger om hukommelsesforbrug i multitasking-visningen</string>
 </resources>

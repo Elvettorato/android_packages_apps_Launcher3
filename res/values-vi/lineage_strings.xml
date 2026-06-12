@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Hình chữ nhật vát</string>
     <string name="teardrop_shape_title">Giọt nước</string>
     <string name="rounded_rect_shape_title">Hình chữ nhật bo tròn</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Hiển thị mức sử dụng RAM trong gần đây</string>
+    <string name="pref_ram_usage_summary">Hiển thị thông tin sử dụng bộ nhớ trong chế độ xem đa nhiệm</string>
 </resources>

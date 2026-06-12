@@ -35,4 +35,7 @@
     <string name="trust_apps_info_protected">Beschermde apps vereisen authenticatie om te starten vanuit de launcher</string>
     <string name="pref_suggestions_title">Suggesties</string>
     <string name="pref_suggestions_summary">Voor app drawer &amp; home screen suggesties</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Toon RAM-gebruik in recente apps</string>
+    <string name="pref_ram_usage_summary">Toon informatie over geheugengebruik in de multitaskingweergave</string>
 </resources>

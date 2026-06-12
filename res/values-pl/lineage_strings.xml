@@ -46,4 +46,7 @@
     <string name="tapered_rect_shape_title">Przycięty kwadrat</string>
     <string name="teardrop_shape_title">Łza</string>
     <string name="rounded_rect_shape_title">Zaokrąglony kwadrat</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Pokaż użycie RAM w ostatnich</string>
+    <string name="pref_ram_usage_summary">Wyświetl informacje o wykorzystaniu pamięci w widoku wielozadaniowości</string>
 </resources>

@@ -39,4 +39,7 @@
     <string name="trust_apps_info_protected">Для открытия защищенных приложений из лаунчера требуется аутентификация</string>
     <string name="pref_suggestions_title">Предложения</string>
     <string name="pref_suggestions_summary">Для панели приложений и предложений на главном экране</string>
+    <!-- RAM usage indicator -->
+    <string name="pref_ram_usage_title">Показывать использование RAM в последних</string>
+    <string name="pref_ram_usage_summary">Отображать информацию об использовании памяти в режиме многозадачности</string>
 </resources>
