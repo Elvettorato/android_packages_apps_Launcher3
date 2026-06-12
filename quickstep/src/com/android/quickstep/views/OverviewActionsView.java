@@ -262,12 +262,14 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         boolean showRamUsage = LauncherPrefs.SHOW_RAM_USAGE.get(getContext());
         boolean isHiddenByOtherFlags = (mHiddenFlags & ~HIDDEN_NO_TASKS) != 0;
 
+        mRamUsageText.animate().cancel();
         if (!showRamUsage || isHiddenByOtherFlags) {
-            mRamUsageText.setVisibility(GONE);
             mRamUsageText.setAlpha(0f);
+            mRamUsageText.setVisibility(GONE);
             return;
         }
 
+        mRamUsageText.setAlpha(0f);
         mRamUsageText.setVisibility(VISIBLE);
         mRamUsageText.animate().alpha(1f).setDuration(200).start();
 
@@ -328,7 +330,11 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
             boolean isHiddenByOtherFlags = (mHiddenFlags & ~HIDDEN_NO_TASKS) != 0;
             if (isHiddenByOtherFlags) {
                 mRamUsageText.animate().alpha(0f).setDuration(200).withEndAction(() -> {
-                    mRamUsageText.setVisibility(GONE);
+                    // Guard against stale end action firing after a subsequent show.
+                    boolean stillHidden = (mHiddenFlags & ~HIDDEN_NO_TASKS) != 0;
+                    if (stillHidden) {
+                        mRamUsageText.setVisibility(GONE);
+                    }
                 }).start();
             } else {
                 updateRamUsage();
